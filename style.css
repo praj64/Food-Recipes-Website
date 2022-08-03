@@ -60,6 +60,9 @@ body {
         background-color: rgba(246, 150, 121, 0);
         font-weight: bold;
         text-align: center; }
+     #header .branding .btn-cta:hover{
+        background-color: rgb(81, 50, 82);
+        }
       #header .branding p {
         font-size: 14px;
         text-transform: uppercase;
