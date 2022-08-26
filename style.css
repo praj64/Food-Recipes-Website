@@ -30,7 +30,7 @@ body {
         text-transform: uppercase; }
         #header .top-header .main-nav ul li:nth-child(1) {
           margin-right: 22px; }
-        #header .top-header .main-nav ul li a {
+        #header .top-header .main-nav ul li button:hover {
           color: #fff;
           text-decoration: none; }
     #header .branding {
@@ -62,9 +62,13 @@ body {
         background-color: rgba(246, 150, 121, 0);
         font-weight: bold;
         text-align: center; }
-     #header .branding .btn-cta:hover{
-        background-color: rgb(81, 50, 82);
+      #header .branding .btn-cta:hover{
+        background-color: rgb(78, 3, 59);
         }
+      #header .branding .btn-cta:hover{
+        transition: 2s;
+        transform: scale(1.1);
+      }
       #header .branding p {
         font-size: 14px;
         text-transform: uppercase;
@@ -218,51 +222,91 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+      #cuisines .container .american:hover{
+        transition: 1s;
+        transform: scale(1.1);
+      }
       #cuisines .container .chinese {
         background-image: url("../images/chinese.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .chinese:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .french {
         background-image: url("../images/french.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .french:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .indian {
         background-image: url("../images/indian.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .indian:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .italian {
         background-image: url("../images/italian.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .italian:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .mexican {
         background-image: url("../images/mexican.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .mexican:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .pizza {
         background-image: url("../images/pizza.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .pizza:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .seafood {
         background-image: url("../images/seafood.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .seafood:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .steak {
         background-image: url("../images/steak.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .steak:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
       #cuisines .container .sushi {
         background-image: url("../images/sushi.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center; }
+        #cuisines .container .sushi:hover{
+          transition: 1s;
+          transform: scale(1.1);
+        }
   
   @media screen and (min-width: 768px) {
     #cuisines .container {
@@ -299,4 +343,3 @@ body {
           #statistics .stat-data h3 span {
             font-size: 13px; } }
   
-  /*# sourceMappingURL=style.css.map */
