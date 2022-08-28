@@ -47,8 +47,10 @@ body {
 }
 
 #header .top-header .main-nav ul li button:hover {
-  color: rgb(78, 3, 59);
+  color: #fff;
   text-decoration: none;
+  background-color: #4a3949;
+  font-size: medium;
 }
 
 #header .branding {
@@ -174,6 +176,12 @@ body {
   margin: 0;
 }
 
+#features .feature .fig-image:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  background-color: rgb(78, 3, 59);
+}
+
 #features .feature h2 {
   display: inline-block;
   margin: 5px 0 0 0;
@@ -263,6 +271,12 @@ body {
   color: white;
 }
 
+#reviews .quote:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
 #reviews .quote {
   margin: 0;
 }
@@ -270,6 +284,12 @@ body {
 #reviews .quote footer {
   margin-top: 18px;
   font-size: 14px;
+}
+
+#reviews .quote footer:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  color: whitesmoke;
 }
 
 #cuisines {
