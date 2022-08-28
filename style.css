@@ -47,7 +47,7 @@ body {
 }
 
 #header .top-header .main-nav ul li button:hover {
-  color: #fff;
+  color: rgb(78, 3, 59);
   text-decoration: none;
 }
 
